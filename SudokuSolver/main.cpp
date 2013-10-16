@@ -3,7 +3,8 @@
 //  SudokuSolver
 //
 //  Created by Aykut René Inan on 15.10.13.
-//  Copyright (c) 2013 Aykut René Inan. All rights reserved.
+//  Copyright (c) 2013 Aykut René Inan & Dix Goerlich All rights reserved.
+//
 //
 
 #include <iostream>
