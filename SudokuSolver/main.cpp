@@ -8,21 +8,14 @@
 
 #include <iostream>
 
-
-
-
-
-
-
-
 int main(int argc, const char * argv[])
 {
-
+	//       Y  X  V
 	int feld[9][9][9];
 
 	feld[1][2][3] = 0;
 
-	std::cout << feld[1][2][3];
+	std::cout << feld[1][2][3] << "\n";
 
 
 
@@ -53,12 +46,10 @@ int main(int argc, const char * argv[])
 	//int iv[9];
 
 
-	//		   Y  X
-	
+    #ifdef _WIN32
+        system("PAUSE");
+    #endif
 
-
-
-		system("pause");
 
     return 0;
 	
