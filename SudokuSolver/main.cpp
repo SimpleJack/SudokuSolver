@@ -56,7 +56,17 @@ int main(int argc, const char * argv[])
     
     printf("Please enter the known numbers in this scheme:\n\n1A=9 5B=4 2F=3 \n\nand confirm your input with Enter.\n");
 
-
+//    0 0 0  0 0 0  0 0 0
+//    0 0 0  0 0 0  0 0 0
+//    0 0 0  0 0 0  0 0 0
+//    
+//    0 0 0  0 0 0  0 0 0
+//    0 0 0  0 0 0  0 0 0
+//    0 0 0  0 0 0  0 0 0
+//    
+//    0 0 0  0 0 0  0 0 0
+//    0 0 0  0 0 0  0 0 0
+//    0 0 0  0 0 0  0 0 0
 
     
     
