@@ -31,7 +31,8 @@ int main(int argc, const char * argv[])
 {
 	//          x  y  z
 	int wuerfel[9][9][9] = {0};
-    
+    int x = 0, y = 0, z = 0;
+
     
     // Schleifen um x y und z immer zu erhöhen, damit immer ein feld weiter gerückt wird nach einer eingabe
     // printfs um das feld mit # anzuzeigen und nach printf ein scanf um den wert aufzunehmen der vom user kommt.
@@ -46,40 +47,31 @@ int main(int argc, const char * argv[])
                 
                 
                 {
-                  
+                    //std::cout << "" <<  "\n";
+                    if (wuerfel[x][y][z]==""){
+                        wuerfel[x][y][z] == "0";
+                    }
+                    printf("###################\n#");
+                    scanf("%d", &wuerfel[x][y][z]);
+                    printf("#%d#\n", wuerfel[x][y][z]);
+                           //%d#%d#%d#%d#%d#%d
                     
-                    unsigned  int mac_4, mac_5, mac_6;
-                    
-                    mac_4 = i;
-                    mac_5 = j;
-                    mac_6 = k;
-                    
-                    
-                    
-                    
-                    
-                    
-                    dump << "EasyBox-" << m7 << m8 << m9 << m10 << s6 << s10 << " " << std::uppercase << std::hex << x1 << std::hex << y1 << std::hex << z1 << std::hex << x2 << std::hex << y2 << std::hex << z2 << std::hex << x3 << std::hex << y3 << std::hex << z3 << "\n";
-                    
-                    printf("###################\n");
-                    printf("#%d#%d#%d#%d#%d#%d#%d#%d#%d#\n", wuerfel[x][y][z])
-                    wuerfel[x][y][z]
                 };
                 
                 z++;
                 
                 
-            } while(z<=0xFF);
+            } while(z<=9);
             
             y++;
-            z = 0x00;
+            z = 0;
             
-        } while(y<=0xFF);
+        } while(y<=9);
         
         x++;
-        y = 0x00;
+        y = 0;
         
-    } while(x<=0xFF);
+    } while(x<=9);
     
 
     
